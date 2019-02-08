@@ -1,0 +1,148 @@
+/* tags Css */
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    background-image: url("../img/wave.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+i{
+    font-size: 48px;
+    color: lightseagreen;
+    background-color: black;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Sarabun', sans-serif;
+}
+
+/* -------------------- Navbar -------------------*/
+
+/* navbar ids */
+#navbar {
+    background-color: transparent;
+    color: transparent;
+    opacity: .8;
+    margin-top: 4%;
+}
+
+/*container 1 Css*/
+#container1 {
+    height: 46.2em;
+    background-color: white;
+    background-image: url("../img/image47.jpg");
+    background-repeat: no-repeat;
+    opacity: .6;
+    background-size: cover;
+    border: 0;
+    margin-top: -8em;
+}
+
+/*container 2 Css*/
+#container2 {
+    border: 0;
+    height: 200px;
+    background-color: lightseagreen;
+    opacity: .5;
+    border-radius: 5em;
+}
+
+#container2 .flex-item{
+    margin-top: 0;
+    margin-left: 0px;
+    font-size: 700%;
+}
+
+/*container 3 Css*/
+#container3 {
+    height: 200px;
+    background-color: coral;
+    border-radius: 5em;
+    margin-bottom: -48px;
+}
+
+/*container 4 Css*/
+#container4 {
+    height: auto;
+    background-color: white;
+}
+
+#container4 .col-md-3 {
+    border-radius: 15px 50px 30px;
+    border-style: groove;
+    border-color: lightseagreen;
+    border-width: 25px;
+}
+
+#container4 button{
+    background-color: lightseagreen;
+    color: white;
+    text-align: center;
+}
+
+/*container 5 Css*/
+#container5 {
+    height: 35em;
+    background-image: url("../img/drip.jpg");
+    background-attachment: fixed;
+    opacity: .5;
+    background-repeat: no-repeat;
+    background-size: 100% 55em;
+
+}
+
+/*container 6 Css*/
+#container6 {
+    height: auto;
+    background-color: transparent;
+    margin-top: -68px;
+}
+
+#container6 row{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container6 .col1{
+    background-color: #333333;
+    height: 20em;
+}
+
+#container6 .col2 {
+    background-color: darkgray;
+    height: 20em;
+}
+
+#conatiner6 .image-placeholder {
+    background-color: #eee;
+    display: flex;
+    height: 180px;
+    margin: 5px;
+    width: 260px;
+}
+
+#container6 p {
+    margin: 35px;
+    color: lightseagreen;
+}
+
+/*container 7 Css*/
+#container7 {
+    height: 20em;
+    background-color: white;
+}
+
+/*Footer*/
+#footer {
+    opacity: .8;
+    height: 3em;
+}
